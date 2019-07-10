@@ -1,6 +1,7 @@
 body {
   margin: 0 auto;
   background-color: #F7EAE9;
+  /* overflow: hidden; */
 }
 
 header {
@@ -18,8 +19,15 @@ header {
   border: none;
   height: 530vh;
   width: 100%;
+  overflow-y: none;
 }
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  #form {
+    height: 850vh;
+  }
 }
