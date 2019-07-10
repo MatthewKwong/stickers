@@ -1,33 +1,30 @@
 body {
   margin: 0 auto;
   background-color: #F7EAE9;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
-header {
-  background-image: url(tyler.JPG);
-  background-size: cover;
-  background-position: center;
-  height: 40vh;
+#header {
+  height: auto;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+}
+
+#wrapper {
+  position: absolute;
+  margin-top: 10vh;
   width: 100%;
 }
 
 #form {
   position: absolute;
-  z-index: 2;
-  top: 20%;
-  border: none;
-  height: 530vh;
+  /* z-index: 2; */
+  top: 20vh;
   width: 100%;
-  overflow-y: none;
+  /* overflow-y: none; */
 }
 
-::-webkit-scrollbar {
-  display: none;
-}
-
-@media only screen and (max-width: 600px) {
-  #form {
-    height: 850vh;
-  }
+iframe::-webkit-scrollbar {
+  display: none !important;
 }
