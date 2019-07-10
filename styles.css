@@ -5,8 +5,8 @@ body {
 }
 
 #header {
-  height: auto;
-  max-width: 100%;
+  max-height: 50%;
+  width: 100%;
   z-index: -1;
   position: absolute;
 }
