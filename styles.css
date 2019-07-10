@@ -1,0 +1,25 @@
+body {
+  margin: 0 auto;
+  background-color: #F7EAE9;
+}
+
+header {
+  background-image: url(tyler.JPG);
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  width: 100%;
+}
+
+#form {
+  position: absolute;
+  z-index: 2;
+  top: 20%;
+  border: none;
+  height: 530vh;
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
